@@ -118,11 +118,11 @@ class SBBViewer(QMainWindow):
         
         # Enable zooming by box selection for both axes
         self.rs1 = RectangleSelector(self.ax1, lambda eclick, erelease: self.on_select(eclick, erelease, self.ax1),
-                                     drawtype='box', useblit=True, button=[1], minspanx=5, minspany=5,
+                                     useblit=True, button=[1], minspanx=5, minspany=5,
                                      spancoords='pixels', interactive=True)
 
         self.rs2 = RectangleSelector(self.ax2, lambda eclick, erelease: self.on_select(eclick, erelease, self.ax2),
-                                     drawtype='box', useblit=True, button=[1], minspanx=5, minspany=5,
+                                     useblit=True, button=[1], minspanx=5, minspany=5,
                                      spancoords='pixels', interactive=True)
 
         # Connect double-click event to reset axis limits for both axes
