@@ -1,0 +1,13 @@
+{
+    "signals": ["speed","distance","acc_x","acc_y","acc_z","gyro_x","gyro_y",
+                "gyro_z","mag_x","mag_y","mag_z","latitude","longitude","gps_speed",
+                "steer_angle","steer_rate","fork_disp","curr_act","steer_torque",
+                "cpu_temp","voltage","ref1","ref2","err_state_in","curr_ref",
+                "throttle","roll_est","yaw_est","pos_est_x","pos_est_y",
+                "dist_est","speed_est","steer_angle_est","steer_rate_est",
+                "err_state_out","user_data1","user_data2","user_data3","user_data4"],
+    "n": 64,
+    "decim": 10,
+    "Fs": 1000,
+    "Fcut": 20
+  }
